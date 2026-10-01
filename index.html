@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portal Aplikasi MRSM SAS</title>
+    <title>Portal MY MRSMSAS</title>
 
     <!-- ===== IKON & "ADD TO HOME SCREEN" ===== -->
     <!-- Favicon (tab pelayar) -->
@@ -92,7 +92,7 @@
 
         <div class="mb-8">
             <h2 class="text-2xl font-bold text-gray-800">Selamat Datang</h2>
-            <p class="text-gray-500 mt-1">Pilih aplikasi sistem untuk memulakan tugasan anda.</p>
+            <p class="text-gray-500 mt-1">Portal Istudent MRSM SAS.</p>
         </div>
 
         <!-- Bekas Grid untuk Ikon Aplikasi -->
@@ -114,76 +114,14 @@
         const systemApps = [
             {
                 id: 'sys1',
-                title: 'SDMS',
+                title: 'eTahmidi',
                 icon: 'fa-solid fa-mobile-screen',
                 color: 'bg-blue-500',
                 textColor: 'text-blue-500',
                 bgColor: 'bg-blue-50',
-                url: 'https://mrsmsas.github.io/sdms' // Gantikan dengan URL sebenar
+                url: 'https://script.google.com/macros/s/AKfycbwu5AjSujstohnlw4x2Ob_JIYUay2YW7FwNXiYdyoqbNU1ucP-YBplwM9BmTU_rx8Ej/exec' // Gantikan dengan URL sebenar
             },
-            {
-                id: 'sys2',
-                title: 'e-Tracker',
-                icon: 'fa-solid fa-person',
-                color: 'bg-emerald-500',
-                textColor: 'text-emerald-500',
-                bgColor: 'bg-emerald-50',
-                url: 'https://script.google.com/macros/s/AKfycbw4oEzkMMqQ4tSoHR6i11cg4ohnF-wu8QJrqtNqL3Z2snGxKIKBVODmshuD7TIc-AArcA/exec'
-            },
-            {
-                id: 'sys3',
-                title: 'eLab',
-                icon: 'fa-boxes-stacked',
-                color: 'bg-amber-500',
-                textColor: 'text-amber-500',
-                bgColor: 'bg-amber-50',
-                url: 'https://script.google.com/macros/s/AKfycbzzzTlopLvElJHGvKf2OBNdSjuOmU3JquZjegHI1nsv3UEpBXdnmFTb4NLxh2N6PA0v/exec'
-            },
-            {
-                id: 'sys4',
-                title: 'SISTEM ADUAN',
-                icon: 'fa-handshake',
-                color: 'bg-purple-500',
-                textColor: 'text-purple-500',
-                bgColor: 'bg-purple-50',
-                url: 'https://support.mrsmsultanazlanshah.edu.my/helpdesk'
-            },
-            {
-                id: 'sys5',
-                title: 'Lab Duty',
-                icon: 'fa-tasks',
-                color: 'bg-indigo-500',
-                textColor: 'text-indigo-500',
-                bgColor: 'bg-indigo-50',
-                url: 'https://script.google.com/macros/s/AKfycbzmzxlwmLrgJdaYJ1TtXZr_Flin_nP2oLeeiBrleQovNRt0HLOW-ZH7spI1fs4iMOz_ZA/exec'
-            },
-            {
-                id: 'sys6',
-                title: 'Testac',
-                icon: 'fa-file-contract',
-                color: 'bg-rose-500',
-                textColor: 'text-rose-500',
-                bgColor: 'bg-rose-50',
-                url: 'https://script.google.com/macros/s/AKfycbzHvN9dDF-8oPLFZqyBDGDpAJE6KFQMONR8o4XTOxVLhbnjkvRfyyKHzL8_dLTv70Y5/exec'
-            },
-            {
-                id: 'sys7',
-                title: 'eDuty',
-                icon: 'fa-solid fa-building-user',
-                color: 'bg-cyan-500',
-                textColor: 'text-cyan-500',
-                bgColor: 'bg-cyan-50',
-                url: 'https://sites.google.com/mrsmsultanazlanshah.edu.my/dutye/home'
-            },
-            {
-                id: 'sys8',
-                title: 'Hostel Guard',
-                icon: 'fa-solid fa-bed-pulse',
-                color: 'bg-teal-500',
-                textColor: 'text-teal-500',
-                bgColor: 'bg-teal-50',
-                url: 'https://sites.google.com/mrsmsultanazlanshah.edu.my/evisit/elawatan'
-            },
+           
             {
                 id: 'sys9',
                 title: 'OneMRSM',
@@ -192,53 +130,7 @@
                 textColor: 'text-orange-500',
                 bgColor: 'bg-orange-50',
                 url: 'https://onemrsm.com/mymrsm/frmlogmasukpelajar.aspx'
-            },
-            {
-                id: 'sys10',
-                title: 'eGuru',
-                icon: 'fa-chart-pie',
-                color: 'bg-fuchsia-500',
-                textColor: 'text-fuchsia-500',
-                bgColor: 'bg-fuchsia-50',
-                url: 'https://mrsmsultanazlanshah.edu.my/skoq/contents/loginguru.asp'
-            },
-             {
-                id: 'sys11',
-                title: 'Vbooking',
-                icon: 'fa-solid fa-bus',
-                color: 'bg-teal-500',
-                textColor: 'text-teal-500',
-                bgColor: 'bg-teal-50',
-                url: 'https://pspmrsmsaskualakangsar.com'
-            },
-             {
-                id: 'sys12',
-                title: 'SRWM',
-                icon: 'fa-solid fa-user-shield',
-                color: 'bg-rose-500',
-                textColor: 'text-rose-500',
-                bgColor: 'bg-rose-50',
-                url: 'https://mrsmsas.github.io/srwm/'
-            },
-        {
-                id: 'sys13',
-                title: 'eSPPNG',
-                icon: 'fa-solid fa-user-graduate',
-                color: 'bg-cyan-500',
-                textColor: 'text-cyan-500',
-                bgColor: 'bg-cyan-50',
-                url: 'https://mrsmsultanazlanshah.edu.my/esppng/'
-
-            
-            },
-             {
-                id: 'sys13',
-                title: 'eKursus Admin',
-                icon: 'fa-solid fa-k',
-                color: 'bg-cyan-500',
-                textColor: 'text-cyan-500',
-                bgColor: 'bg-cyan-50',
-                url: 'https://mrsmsas.github.io/ekedatangankursus/admin'
+          
             }
         ];
         // Fungsi untuk menjana Grid Ikon Aplikasi secara dinamik
